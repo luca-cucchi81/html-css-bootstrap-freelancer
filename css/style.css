@@ -180,10 +180,14 @@ footer ul a{
 }
 
 footer ul i{
-    font-size: 15px;
+    font-size: 20px;
     padding: 10px 10px;
     border: 2px solid #ffffff;
     border-radius:100%;
+}
+footer ul i:hover{
+    background-color: #ffffff;
+    color: black;
 }
 
 span{
