@@ -61,17 +61,17 @@ i{
     padding-top: 30px;
 }
 
-.portfolio h2{
+.portfolio h2, .contact h2{
     font-weight: bold;
-    font-size: 35px;
+    font-size: 40px;
 }
 
-.second-divider hr{
+.second-divider hr, .fourth-divider hr{
     border: 3px solid #2c3e50;
     border-radius: 2px;
 }
 
-.second-divider i{
+.second-divider i, .fourth-divider i{
     color: #2c3e50;
     font-size: 30px;
 }
@@ -99,12 +99,13 @@ i{
 
 .terzo-testo{
     padding-top: 10px;
+    padding-bottom: 30px;
 }
+
 .freelancer p{
     padding-top: 10px;
     color: #ffffff;
     font-size: 18px;
-
 }
 
 .download i::after{
@@ -114,7 +115,24 @@ i{
 }
 
 .download{
-    padding-top: 10px;
-    border: 1px solid #ffffff;
+    padding: 10px 0;
+    border: 3px solid #ffffff;
     border-radius: 5px;
+}
+
+.contact{
+    padding-top: 30px;
+}
+.fourth-divider{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.form-group label{
+    color: #6c757d;
+}
+.form-group button{
+    margin-top: 20px;
+    background-color: #1abc9c;
+    color: #ffffff;
+    padding: 15px 30px;
 }
