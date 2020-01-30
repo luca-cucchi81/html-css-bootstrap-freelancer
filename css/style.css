@@ -126,6 +126,16 @@ i{
     border-radius: 5px;
 }
 
+.download:hover{
+    background-color: #ffffff;
+}
+
+.download i:hover{
+    color: black;
+    background-color: #ffffff;
+}
+
+
 .contact{
     padding-top: 30px;
 }
@@ -175,3 +185,6 @@ footer ul i{
     border: 2px solid #ffffff;
     border-radius:100%;
 }
+
+span{
+    color: #1abc9c;
