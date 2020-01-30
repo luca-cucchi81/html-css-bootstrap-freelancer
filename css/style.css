@@ -1,0 +1,49 @@
+* {
+font-family: 'Montserrat', sans-serif;
+  }
+
+.navbar{
+    background-color: #2c3e50;
+}
+
+.logo, .menu{
+    color: #ffffff;
+    padding-bottom: 20px;
+}
+
+.menu{
+    padding-top: 25px;
+}
+
+.logo h2, .menu a{
+    font-weight: bold;
+    color: #ffffff;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.first{
+    background-color: #1abc9c;
+    padding-top: 80px;
+}
+
+.titolo h1{
+    text-transform: uppercase !important;
+    font-size: 70px;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.uomo{
+    padding-top: 30px;
+}
+
+hr{
+    border: 3px solid #ffffff;
+    border-radius: 2px;
+}
+
+i{
+    color: #ffffff;
+    font-size: 30px;
+}
