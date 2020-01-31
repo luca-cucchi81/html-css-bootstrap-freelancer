@@ -2,256 +2,90 @@
 <html lang="it" dir="ltr">
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script src="https://kit.fontawesome.com/c42bf76b68.js" crossorigin="anonymous"></script>
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Poppins:500,700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
         <link rel="stylesheet" href="css/style.css">
         <title>Freelancer</title>
     </head>
+
     <body>
+        <!-- ==NAVBAR==-->
         <header>
-            <!-- ==NAVBAR== -->
-            <nav class="navbar navbar-default navbar-fixed-top">
-              <div class="container">
-                <div class="row">
-                    <div class="logo col-sm-6 col-xs-12">
-                        <h3 class="text-uppercase">Start Bootstrap</h3>
+            <nav class="navbar navbar-default navbar-fixed-top container-fluid">
+                <div class="container text-uppercase">
+                    <div class="navbar-header">
+                      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                      </button>
+                      <a class="navbar-brand" href="#">Start Bootstrap</a>
                     </div>
-                    <div class="menu col-sm-4 col-sm-offset-2 col-xs-12">
-                        <ul class="list-unstyled list-inline text-uppercase">
-                            <li><a href="#">Portfolio</a></li>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Contact</a></li>
-                        </ul>
+
+                    <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+                      <ul class="nav navbar-nav">
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
                     </div>
                 </div>
-              </div>
             </nav>
-
-            <!-- ==START BOOTSTRAP== -->
-            <div class="first container-fluid">
-                <div class="container">
-                    <div class="row col-sm-12">
-                        <div class="uomo col-sm-4 col-sm-offset-4">
-                            <img class="img-responsive" src="https://blackrockdigital.github.io/startbootstrap-freelancer/img/avataaars.svg" alt="uomo">
-                        </div>
-
-                        <div class="titolo col-sm-8 col-sm-offset-2 text-center">
-                            <h1>Start Bootstrap</h1>
-
-                            <div class="divider col-sm-6 col-sm-offset-3">
-                                <div class="linea col-sm-4">
-                                    <hr>
-                                </div>
-                                <div class="col-sm-3">
-                                    <i class="fas fa-star img-responsive"></i>
-                                </div>
-                                <div class="linea col-sm-4">
-                                    <hr>
-                                </div>
-                            </div>
-
-                            <div class="skills col-sm-12">
-                                <ul class="list-unstyled list-inline">
-                                    <li>Graphic Artist</li>
-                                    <li>-</li>
-                                    <li>Web Designer</li>
-                                    <li>-</li>
-                                    <li>Illustrator</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </header>
 
-        <main>
+        <section class="jumbotron text-center lc--bg--light">
             <div class="container">
                 <div class="row">
-                    <div class="second-testo col-sm-6 col-sm-offset-3">
-                        <div class="portfolio text-center text-uppercase">
-                            <h2>portfolio</h2>
-                        </div>
-                    </div>
-
-                    <div class="second-divider col-sm-6 col-sm-offset-3 text-center">
-                        <div class="linea col-sm-5">
-                            <hr>
-                        </div>
-                        <div class="col-sm-2">
-                            <i class="fas fa-star"></i>
-                        </div>
-                        <div class="linea col-sm-5">
-                            <hr>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="cards col-sm-12">
-                        <div class="box col-sm-4">
-                            <img src="https://blackrockdigital.github.io/startbootstrap-freelancer/img/portfolio/cabin.png" alt="">
-                        </div>
-                        <div class="box col-sm-4">
-                            <img class="img-responsive" src="https://blackrockdigital.github.io/startbootstrap-freelancer/img/portfolio/cake.png" alt="">
-                        </div>
-                        <div class="box col-sm-4">
-                            <img src="https://blackrockdigital.github.io/startbootstrap-freelancer/img/portfolio/circus.png" alt="">
-                        </div>
-                    </div>
-
-                    <div class="cards2 col-sm-12">
-                        <div class="box col-sm-4">
-                            <img src="https://blackrockdigital.github.io/startbootstrap-freelancer/img/portfolio/game.png" alt="">
-                        </div>
-                        <div class="box col-sm-4">
-                            <img src="https://blackrockdigital.github.io/startbootstrap-freelancer/img/portfolio/safe.png" alt="">
-                        </div>
-                        <div class="box col-sm-4 ">
-                            <img src="https://blackrockdigital.github.io/startbootstrap-freelancer/img/portfolio/submarine.png" alt="">
-                        </div>
-                    </div>
+                    <img class="lc--jumbo--img img-responsive center-block" src="https://blackrockdigital.github.io/startbootstrap-freelancer/img/avataaars.svg" alt="uomo">
+                    <h2 class="text-uppercase col-xs-10 col-xs-offset-1">Start Bootstrap</h2>
+                    <div class="lc--star"><i class="fas fa-star"></i></div>
+                    <h3>Graphic Artist - Web Designer - Illustrator</h3>
                 </div>
             </div>
+        </section>
 
-            <div class="second container-fluid">
-                <div class="container">
-                    <div class="row">
-                        <div class="second-testo col-sm-6 col-sm-offset-3">
-                            <div class="about text-center text-uppercase">
-                                <h2>About</h2>
-                            </div>
-
-                            <div class="third-divider col-sm-8 col-sm-offset-2 text-center">
-                                <div class="linea col-sm-5">
-                                    <hr>
-                                </div>
-                                <div class="col-sm-2">
-                                    <i class="fas fa-star"></i>
-                                </div>
-                                <div class="linea col-sm-5">
-                                    <hr>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="terzo-testo col-sm-8 col-sm-offset-2">
-                            <div class="freelancer text-left col-sm-6">
-                                <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization</p>
-                            </div>
-
-                            <div class="freelancer text-left col-sm-6">
-                                <p>You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="scarica col-sm-8 col-sm-offset-2">
-                            <div class="download text-center col-sm-4 col-sm-offset-4 ">
-                                <a href="#"><i class="fas fa-download"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
+        <!-- ==PORTFOLIO== -->
+        <section class="portfolio text-center lc--bg--dark--reverse">
             <div class="container">
-                <div class="row">
-                    <div class="contact col-sm-6 col-sm-offset-3">
-                        <div class="text-center text-uppercase">
-                            <h2>Contact Me</h2>
-                        </div>
-
-                        <div class="fourth-divider col-sm-8 col-sm-offset-2 text-center">
-                            <div class="linea col-sm-5">
-                                <hr>
-                            </div>
-                            <div class="col-sm-2">
-                                <i class="fas fa-star"></i>
-                            </div>
-                            <div class="linea col-sm-5">
-                                <hr>
-                            </div>
-                        </div>
-                    </div>
+                <div class="row">       <!--TITOLO PORTOFOLIO -->
+                    <h2 class="text-uppercase">Portfolio</h2>
+                    <div class="lc--star--portfolio"><i class="fas fa-star"></i></div>
                 </div>
 
-                <div class="row">
-                    <form class="form-horizontal col-sm-8 col-sm-offset-2 text-center">
-                          <div class="form-group">
-                            <label for="inputName3" class="col-sm-2 control-label">Name</label>
-                            <div class="col-sm-10">
-                              <input type="name" class="form-control" id="inputName3" placeholder="Name">
-                            </div>
-                          </div>
+                <div class="row">       <!--CARDS PORTOFOLIO -->
+                    <div class="card col-xs-12 col-sm-6 col-md-4">
+                        <div class="overlay"><i class="fas fa-plus"></i></div>
+            		    <img src="https://blackrockdigital.github.io/startbootstrap-freelancer/img/portfolio/cabin.png" alt="Immagine">
+                    </div>
 
-                          <div class="form-group">
-                             <label for="inputEmail3" class="col-sm-2 control-label">Email Address</label>
-                             <div class="col-sm-10">
-                               <input type="email" class="form-control" id="inputEmail3" placeholder="Email address">
-                             </div>
-                          </div>
+                    <div class="card col-xs-12 col-sm-6 col-md-4">
+                        <div class="overlay"><i class="fas fa-plus"></i></div>
+            		    <img src="https://blackrockdigital.github.io/startbootstrap-freelancer/img/portfolio/cake.png" alt="Immagine">
+                    </div>
 
-                          <div class="form-group">
-                             <label for="inputPhone3" class="col-sm-2 control-label">Phone Number</label>
-                             <div class="col-sm-10">
-                               <input type="email" class="form-control" id="inputPhone3" placeholder="Phone Number">
-                             </div>
-                          </div>
+                    <div class="card col-xs-12 col-sm-6 col-md-4">
+                        <div class="overlay"><i class="fas fa-plus"></i></div>
+            		    <img src="https://blackrockdigital.github.io/startbootstrap-freelancer/img/portfolio/circus.png" alt="Immagine">
+                    </div>
 
-                          <div class="form-group">
-                             <label for="textarea" class="col-sm-2 control-label">Messaggio</label>
-                             <div class="col-sm-10">
-                               <textarea class="form-control" rows="3" placeholder="Scrivi un messaggio"></textarea>
-                             </div>
-                          </div>
+                    <div class="card col-xs-12 col-sm-6 col-md-4">
+                        <div class="overlay"><i class="fas fa-plus"></i></div>
+            		    <img src="https://blackrockdigital.github.io/startbootstrap-freelancer/img/portfolio/game.png" alt="Immagine">
+                    </div>
 
-                          <div class="form-group">
-                             <div class="col-sm-3">
-                                <button type="submit" class="btn btn-default">Send</button>
-                             </div>
-                        </div>
-                    </form>
+                    <div class="card col-xs-12 col-sm-6 col-md-4">
+                        <div class="overlay"><i class="fas fa-plus"></i></div>
+            		    <img src="https://blackrockdigital.github.io/startbootstrap-freelancer/img/portfolio/safe.png" alt="Immagine">
+                    </div>
+
+                    <div class="card col-xs-12 col-sm-6 col-md-4">
+                        <div class="overlay"><i class="fas fa-plus"></i></div>
+            		    <img src="https://blackrockdigital.github.io/startbootstrap-freelancer/img/portfolio/submarine.png" alt="Immagine">
+                    </div>
                 </div>
             </div>
-        </main>
-
-        <footer>
-                <div class="container dati">
-                    <div class="row">
-                        <div class="col-sm-4 text-center">
-                            <h4 class="text-uppercase">Location</h4>
-                            <p>2215 John Daniel Drive Clark, MO 65243</p>
-                        </div>
-                        <div class="col-sm-4 text-center">
-                            <h4 class="text-uppercase">Around the Web</h4>
-                            <ul class="list-unstyled list-inline text-center">
-                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                                <li><a href="#"><i class="fas fa-basketball-ball"></i></a></li>
-                            </ul>
-                        </div>
-                        <div class="col-sm-4 text-center">
-                            <h4 class="text-uppercase">About Freelancer</h4>
-                            <p>Freelance is a free to use, MIT licensed Bootstrap theme created by <span>Start Bootstrap</span>.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="container-fluid copyright">
-                    <div class="row">
-                        <div class="col-sm-6 col-sm-offset-3 text-center">
-                            <p>Copyright © Your Website 2019</p>
-                        </div>
-                    </div>
-                </div>
-        </footer>
+        </section>
     </body>
 </html>
