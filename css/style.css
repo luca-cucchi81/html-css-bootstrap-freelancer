@@ -243,7 +243,7 @@ button:hover {
 }
 
 /* ==FOOTER== */
-.footer{
+footer{
     padding-top: 50px;
 }
 
@@ -258,7 +258,6 @@ button:hover {
     color: #1abc9c;
 }
 
-
 .fa-circle {
     transform: scale(80%);
     color: #2c3e50;
@@ -271,4 +270,13 @@ button:hover {
 
 .fa-stack-1x{
     font-size: 18px;
+}
+
+.container-fluid{
+    background-color: #1a252f;
+}
+.container-fluid p{
+    font-size: 13px;
+    padding-top: 30px;
+    padding-bottom: 20px;
 }
