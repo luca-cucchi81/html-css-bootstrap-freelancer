@@ -37,7 +37,6 @@
 }
 
 /* ==JUMBOTRON== */
-
 .lc--jumbo--img{
     max-width: 250px;
 }
@@ -56,14 +55,18 @@
     padding-top: 10px;
     padding-bottom: 20px;
 }
+
 .lc--star i,
-.lc--star--portfolio i{
+.lc--star--portfolio i,
+.lc--star--about i {
     font-size: 30px;
     padding: 0 15px;
 }
 
 .lc--star::before,
-.lc--star::after {
+.lc--star::after,
+.lc--star--about::before,
+.lc--star--about::after {
     content: '';
     display: inline-block;
     width: 100px;
@@ -75,7 +78,6 @@
 }
 
 /*==PORTFOLIO== */
-
 .portfolio h2{
     font-size: 50px;
     font-weight: 700;
@@ -137,4 +139,45 @@ img {
     padding-top: 20px;
     padding-left: 20px;
     padding-right: 20px;
+}
+
+/* ==ABOUT== */
+section.about{
+    margin-top: 60px;
+    padding-bottom: 20px;
+}
+.about h2{
+    font-size: 50px;
+    font-weight: 700;
+    padding-top: 50px;
+}
+
+.about p{
+    padding-top: 20px;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing:0.5px;
+}
+.scarica{
+    color: #ffffff;
+    font-size: 20px;
+}
+
+ .scarica::after{
+    content: "Free Download!";
+    padding-left: 10px;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+}
+.free-download{
+    padding-top: 20px;
+}
+
+.free-download a{
+    padding: 20px 30px;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
 }
